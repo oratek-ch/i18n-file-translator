@@ -1,6 +1,6 @@
 {
-  "name": "i18n-translator",
-  "version": "1.0.0",
+  "name": "i18n-deepl-translator",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
   "keywords": [
     "i18n",
     "translate",
-    "deepl"
+    "deepl",
+    "json"
   ],
   "license": "ISC",
   "dependencies": {

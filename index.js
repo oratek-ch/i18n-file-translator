@@ -55,7 +55,7 @@ translateObj = (params, outputLang, callback) => {
 				translate(value, outputLang)
 					.then(res => {
 						if (!bar) {
-							bar = new ProgressBar('  translating [:bar] :percent :etas', {
+							bar = new ProgressBar('translating [:bar] :percent :etas', {
 								complete: '=',
 								incomplete: ' ',
 								width: 50,
