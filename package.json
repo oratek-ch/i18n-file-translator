@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "command-line-args": "^4.0.7",
     "deepl-translator": "^1.2.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "progress": "^2.0.0"
   }
 }
