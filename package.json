@@ -1,12 +1,21 @@
 {
-  "name": "translator",
+  "name": "i18n-translator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "rolljee",
+    "email": "n.riquelmebareiro@gmail.com",
+    "url": "https://github.com/rolljee/i18n-file-translator"
+  },
+  "keywords": [
+    "i18n",
+    "translate",
+    "deepl"
+  ],
   "license": "ISC",
   "dependencies": {
     "command-line-args": "^4.0.7",
