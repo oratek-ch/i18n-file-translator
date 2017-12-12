@@ -74,7 +74,7 @@ translateObj = (params, outputLang, callback) => {
 					.catch((e) => {
 						callback(e, null);
 					})
-			}, numberOfCall * 1000) // avoid the api call limit
+			}, numberOfCall * 2000) // avoid the api call limit
 		}
 	});
 };
