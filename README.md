@@ -2,6 +2,12 @@
 
 Translating text as never been so easy.
 
+```shell
+npm install i18n-deepl-translator 
+
+git clone https://github.com/rolljee/i18n-file-translator
+```
+
 ## Usage
 
 ```shell
