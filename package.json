@@ -19,9 +19,9 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "co": "^4.6.0",
     "command-line-args": "^4.0.7",
-    "deepl-translator": "^1.2.0",
-    "lodash": "^4.17.4",
-    "progress": "^2.0.0"
+    "command-line-usage": "^5.0.3",
+    "deepl-translator": "^1.2.0"
   }
 }
