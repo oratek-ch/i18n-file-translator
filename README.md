@@ -3,9 +3,9 @@
 Translating text as never been so easy.
 
 ```shell
-npm install i18n-deepl-translator 
+npm install @oratek/i18n-file-translator
 
-git clone https://github.com/rolljee/i18n-file-translator
+git clone https://github.com/oratekch/i18n-file-translator
 ```
 
 ## Usage
@@ -14,12 +14,14 @@ git clone https://github.com/rolljee/i18n-file-translator
 # as simple as that
 npm install
 
-node index.js -i "path/to/myfile.json" -o 'path/to/destfile.json' -l 'EN'
+node index.js -i "path/to/myfile.json" -o 'path/to/destfile.json' -l 'EN' -e 'google' -k 'API_KEY'
 ```
 
 + `-i` JSON input file
 + `-o` JSON output file
 + `-l` Destination lang
++ `-e` Translation engine (google or deepl)
++ `-k` API Key (please sea respective documentation for each engine to retrieve the API KEY)
 
 DeepL should detect the input lang by himself :-)
 

@@ -1,7 +1,7 @@
 ### Global
 *~
 [#]*[#]
-tests/.log*
+tests
 settings-prod.json
 .log
 .docs

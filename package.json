@@ -1,6 +1,6 @@
 {
-  "name": "i18n-deepl-translator",
-  "version": "1.0.3",
+  "name": "i18n-file-translator",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,12 +15,14 @@
     "i18n",
     "translate",
     "deepl",
+    "google",
     "json"
   ],
   "license": "ISC",
   "dependencies": {
     "command-line-args": "^4.0.7",
-    "deepl-translator": "^1.2.0",
+    "deepl-client": "^1.0.5",
+    "google-translate": "^3.0.0",
     "lodash": "^4.17.4",
     "progress": "^2.0.0"
   }
