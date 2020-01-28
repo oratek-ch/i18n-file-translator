@@ -1,16 +1,12 @@
 {
-  "name": "i18n-file-translator",
+  "name": "@oratek/i18n-file-translator",
   "version": "1.0.4",
-  "description": "",
+  "description": "Translating text as never been so easy.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": {
-    "name": "rolljee",
-    "email": "n.riquelmebareiro@gmail.com",
-    "url": "https://github.com/rolljee/i18n-file-translator"
-  },
+  "author": "rolljee <n.riquelmebareiro@gmail.com> (https://github.com/rolljee/i18n-file-translator)",
   "keywords": [
     "i18n",
     "translate",
@@ -25,5 +21,17 @@
     "google-translate": "^3.0.0",
     "lodash": "^4.17.4",
     "progress": "^2.0.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oratekch/i18n-file-translator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oratekch/i18n-file-translator/issues"
+  },
+  "homepage": "https://github.com/oratekch/i18n-file-translator#readme"
 }
